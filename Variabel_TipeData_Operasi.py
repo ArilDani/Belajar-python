@@ -1,12 +1,12 @@
-print("=====================================")
+print("==========mengeluarkan hello world dengan python==========")
 print("Hello,World!") #ini akan mengeluarkan hello world di terminal
 
-print("=====================================")
+print("==========variabel==========")
 #vaariabel
 a = "hello,World " #a itu adalah variabel dan hello,World itu adalah nilai
 print(a ) #ini akan mengeluarkan hello world di terminal
 
-print("====================================")
+print("==========tipe data==========")
 #tipe data
 string = "Hello,World!" #data yang menggunakan single qoute atau double qoute merupakan string
 integer = 123456789 #data yang menggunakan angka merupakan integer
@@ -17,7 +17,7 @@ print("data =",integer,"type =",type(integer))
 print("data =",float,"type =",type(float))
 print("data =",boolean,"type =",type(boolean))
 
-print("=====================================")
+print("==========operasi aritmatika==========")
 #operasi aritmatika
 a = 10
 b = 2
@@ -32,7 +32,7 @@ print(a // b) #menghitung hasil bagi dari nilai yang berda di dalam variabel a d
 #print(str + b) #menggabungkan string dengan integer, akan menghasilkan error karena tipe data tidak sesuai
 print(str * b) #mengulang string sebanyak nilai yang ada di dalam variabel b
 
-print("=====================================")
+print("========operasi logika==========")
 #operasi logika
 a = True
 b = False
